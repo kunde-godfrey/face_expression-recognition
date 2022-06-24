@@ -120,4 +120,4 @@ if __name__ == '__main__':
         optmizer= optim.Adam(net.parameters(),lr= lr)
         Train(epochs, train_loader, val_loader, criterion, optmizer, device)
 
-__main__()
+#__main__()
